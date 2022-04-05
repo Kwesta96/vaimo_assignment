@@ -1,0 +1,18 @@
+@import '../../../../global.scss';
+
+.inStock{
+    background-color: $secondaryColor;
+    width: 75px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        color: $mainColor;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+    }
+}
