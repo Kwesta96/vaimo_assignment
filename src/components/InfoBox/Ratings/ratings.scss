@@ -1,11 +1,30 @@
 @import '../../../global.scss';
 
 .ratings{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
     display: flex;
     margin-bottom: 13px;
 
     .stars{
         color: $mainColor;
         font-size: 16px;
+        margin-right: 4px;
+    }
+
+    .ratingNumber{
+        color: $mainColor;
+        margin-right: 4px;
+    }
+
+    .reviews{
+        color: $textGray;
+        margin-right: 24px;
+    }
+
+    .buyers{
+        color: $textBlack;
     }
 }
