@@ -1,6 +1,5 @@
 import { InfoOutlined } from '@mui/icons-material';
 import Tooltip from '@mui/material/Tooltip';
-import React from 'react'
 import './leadTime.scss'
 
 const LeadTime = ({ leadTime }) => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import './marchExpo.scss'
 import logo from '../../../assets/images/logo.png'
 import { ArrowForwardIos } from '@mui/icons-material'

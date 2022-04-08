@@ -1,4 +1,3 @@
-import React from 'react'
 import './addToBox.scss'
 import LeadTime from './LeadTime/LeadTime'
 import Button from './Button/Button'

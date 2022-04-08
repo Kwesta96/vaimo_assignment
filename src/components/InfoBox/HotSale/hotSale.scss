@@ -1,20 +1,31 @@
 @import '../../../global.scss';
 
 .hotSale{
-    background-color: #EDF0F3;
-    border-radius: 2px;
-    width: 111px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 12px;
 
-    span{
-        color: $textGray;
-        font-size: 12px;
+    .title{
+        color: $textBlack;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 16px;
+        line-height: 24px;
+        width: 526px;
         text-align: left;
-        float: right;
+        
+
+        .tagContainer{
+            background-color: #EDF0F3;
+            border-radius: 2px;
+            // width: 111px;
+            // height: 40px;
+            padding: 0px 8px 2px 8px;
+
+            .tag{
+                color: $textGray;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: left;
+            }
+        }
     }
 }

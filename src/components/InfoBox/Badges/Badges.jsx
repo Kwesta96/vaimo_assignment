@@ -1,4 +1,3 @@
-import React from 'react'
 import './badges.scss'
 import { ReadyToShip } from '../Badges/ReadyToShip/ReadyToShip'
 import { InStock } from '../Badges/InStock/InStock'

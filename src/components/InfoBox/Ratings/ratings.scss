@@ -2,4 +2,10 @@
 
 .ratings{
     display: flex;
+    margin-bottom: 13px;
+
+    .stars{
+        color: $mainColor;
+        font-size: 16px;
+    }
 }

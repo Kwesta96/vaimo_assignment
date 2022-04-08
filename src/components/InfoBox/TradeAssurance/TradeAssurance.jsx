@@ -1,4 +1,3 @@
-import React from 'react'
 import './tradeAssurance.scss'
 import icon from '../../../assets/icons/icons8-security_lock.svg'
 

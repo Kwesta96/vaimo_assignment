@@ -1,4 +1,3 @@
-import React from 'react'
 import './links.scss'
 
 const Links = ({ link }) => {

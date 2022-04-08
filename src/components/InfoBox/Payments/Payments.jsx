@@ -1,4 +1,3 @@
-import React from 'react'
 import './payments.scss'
 import imgVisa from '../../../assets/icons/icons8-visa.svg'
 import imgMasterCard from '../../../assets/icons/icons8-mastercard.svg'

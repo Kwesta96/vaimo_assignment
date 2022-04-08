@@ -1,5 +1,4 @@
 import { CheckCircleOutline } from '@mui/icons-material'
-import React from 'react'
 import './fastDispatch.scss'
 
 export const FastDispatch = ({ text }) => {

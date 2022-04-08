@@ -1,0 +1,42 @@
+@import '../../../global.scss';
+
+.discount{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .discountAmt{
+        color: $mainColor;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .discountText{
+        color: $textGray;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin-right: 24px;
+    }
+
+    .icon{
+        color: $textGray;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin-right: 12px;
+    }
+
+    .countdownTimer{
+        color: $textGray;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 24px;
+        text-align: left;
+    }
+}
