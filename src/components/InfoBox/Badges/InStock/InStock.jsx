@@ -1,10 +1,11 @@
 import React from 'react'
+import { CheckCircleOutline } from '@mui/icons-material'
 import './inStock.scss'
 
 export const InStock = ({ text }) => {
   return (
     <div className='inStock'>
-      <span>{text}</span>
+      <span><CheckCircleOutline className='icon'/>{text}</span>
     </div>
   )
 }

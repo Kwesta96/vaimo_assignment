@@ -1,15 +1,13 @@
-// import React from 'react'
+import React from 'react'
+import './productImage.scss'
 
-// const ProductImage = (data) => {
-//   return (
-//     <div className='productImage'>
-//       {data.map((prod) => (
-//         <div className='title' key={prod.product.name}>
-//           <h2>{prod.product.name}</h2>
-//         </div>
-//       ))}
-//     </div>
-//   )
-// }
+const ProductImage = ({ img }) => {
 
-// export default ProductImage
+    return (
+        <div className='productImage'>    
+            <img src={img.main} alt="s" className='img'/>
+        </div>
+    )
+}
+
+export default ProductImage

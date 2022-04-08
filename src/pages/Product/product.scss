@@ -1,3 +1,49 @@
+@import '../../global.scss';
+
+
+.isPending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+
 .product{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0px;
+
+    .left{
+        width: 400;
+        height: 400;
+        background-color: lightblue;
+    }
+    .center{
+        max-width: 526px;
+
+        .title{
+            margin-bottom: 12px;
+
+            .productTitle{
+                color: $textBlack;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                width: 526px;
+                text-align: left;
+            }
+        }
+
+        .links{
+            display: flex;
+        }
+    }
+
     
 }

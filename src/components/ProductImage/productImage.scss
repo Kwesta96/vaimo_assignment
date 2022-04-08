@@ -1,0 +1,11 @@
+.productImg{
+    width: 416px;
+    height: 416px;
+    
+    .img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        z-index: 999;
+    }
+}

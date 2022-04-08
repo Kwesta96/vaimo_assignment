@@ -1,11 +1,13 @@
 import React from 'react'
 import './hotSale.scss'
 
-const HotSale = () => {
+const HotSale = ({ tag }) => {
+
   return (
-    <div className='hotSale'>
-        <span>Hot sale products</span>
-    </div>
+    <span className="hotSale">
+      <span>{tag}</span>
+    </span>
+
   )
 }
 

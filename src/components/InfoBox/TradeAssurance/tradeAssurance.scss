@@ -1,0 +1,26 @@
+@import '../../../global.scss';
+
+.tradeAssurance{
+    display: flex;
+    margin-bottom: 12px;
+
+    img{
+        margin-right: 5px;
+    }
+
+    .textBold{
+        color: $textGray;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: left;
+         
+        .text{
+            color: $textGray;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+        }
+    }
+}
