@@ -11,6 +11,7 @@
     .top{
         display: flex;
         margin-top: 12px;
+        overflow-y: hidden;
 
         .price{
             color: $mainColor;
@@ -19,6 +20,7 @@
             line-height: 16px;
             text-align: left;
             margin-right: 12px;
+            overflow-y: hidden;
         }
 
         .optionText{
