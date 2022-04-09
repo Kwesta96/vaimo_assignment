@@ -44,6 +44,6 @@ Making use of styled-components could have been another option to sass. It has b
 amongst react developers and has a huge community.
 
 Next.js could have been an alternative to React for this project. I call it the fullstack framework for React.js.
-It's SEO friendliness makes it one of the to top JS frameworks (especially for eCommerce sites).
+It's SEO friendliness makes it one of the top JS frameworks (especially for eCommerce sites).
 
 
