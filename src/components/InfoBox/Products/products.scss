@@ -30,8 +30,8 @@
         .price {
             color: $textBlack;
             text-align: left;
-            margin-right: 24px;
-            width: 60px;
+            // margin-right: 24px;
+            width: 100px;
 
             @include mobile{
                 margin-right: 12px;

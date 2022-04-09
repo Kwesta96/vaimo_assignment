@@ -16,7 +16,7 @@ import './product.scss'
 
 export const Product = () => {
   const { data: prod, isPending, error } = useFetch('https://fe-assignment.vaimo.net/');
-
+  
   if (isPending) return <h6 className='isPending'><CircularProgress color="inherit" /></h6>
   if (error) return <h2 className='error'>{error}</h2>
 
@@ -25,12 +25,13 @@ export const Product = () => {
       <ProductImage img={prod?.product.gallery[0]} />
       <div className="infoBox">
         <Badges />
+        
         <HotSale title={prod?.product.name} tag={prod?.product.tags} />
         <Ratings rating={prod?.product.reviews}/>
         <PriceBox price={prod?.product.options} />
         <MarchExpo />
         <Discount discount={prod?.product.discount} />
-        <Products options={prod?.product.options}/>
+        <Products options={prod?.product.options} />
         <TradeAssurance />
         <Payments />
         <div className="links">

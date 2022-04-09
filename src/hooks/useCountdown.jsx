@@ -1,9 +1,15 @@
+import React from 'react'
 
+const useCountdown = ({ dueDate }) => {
 
-const useCountdown = () => {
+  let dateComponents = dueDate.split('T');
+  let datePieces = dateComponents[0].split("-");
+  let timePieces = dateComponents[1].split(":");
+
   return (
-    <div>useCountdown</div>
-  )
+    new Date(datePieces[2], (datePieces[1] - 1), datePieces[0],
+    timePieces[0], timePieces[1], timePieces[2]));
+
 }
 
 export default useCountdown
