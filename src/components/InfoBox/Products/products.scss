@@ -1,6 +1,37 @@
 @import '../../../global.scss';
 
-.products{
+.products {
 
-    
+    .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+
+
+        .optionText {
+            color: $textGray;
+            width: 112px;
+        }
+
+        .optionName {
+            color: $textBlack;
+            width: 174px;
+
+        }
+
+        .price {
+            color: $textBlack;
+            text-align: left;
+            margin-right: 24px;
+            width: 60px;
+        }
+
+        .qty{
+            
+        }
+    }
 }

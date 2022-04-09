@@ -1,0 +1,54 @@
+@import '../../../global.scss';
+
+.qtyRocker {
+    // background-color: lightblue;
+    display: flex;
+    align-items: center;
+
+    .dec{
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid $thirdColor;
+        border-radius: 2px 0 0 2px;
+        width: 40px;
+        height: 40px;
+        color: $thirdColor;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    #qty{
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: inset 0 1px 0 0 $thirdColor, inset 0 -1px 0 0 $thirdColor;
+        width: 80px;
+        height: 40px;
+        outline: none;
+        border: none;
+        text-align: center;
+    }
+
+    .inc{
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid $mainColor;
+        border-radius: 0 2px 2px 0;
+        width: 40px;
+        height: 40px;
+        color: $mainColor;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:active{
+            background-color: $mainColor;
+            color: $white;
+        }
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+}

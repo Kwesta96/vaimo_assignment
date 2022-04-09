@@ -7,14 +7,15 @@ import Links from '../../components/InfoBox/Links/Links'
 import MarchExpo from '../../components/InfoBox/MarchExpo/MarchExpo'
 import Payments from '../../components/InfoBox/Payments/Payments'
 import PriceBox from '../../components/InfoBox/PriceBox/PriceBox'
+import Products from '../../components/InfoBox/Products/Products'
 import Ratings from '../../components/InfoBox/Ratings/Ratings'
 import TradeAssurance from '../../components/InfoBox/TradeAssurance/TradeAssurance'
 import ProductImage from '../../components/ProductImage/ProductImage'
-import UseFetch from '../../hooks/useFetch'
+import useFetch from '../../hooks/useFetch'
 import './product.scss'
 
 export const Product = () => {
-  const { data: prod, isPending, error } = UseFetch('https://fe-assignment.vaimo.net');
+  const { data: prod, isPending, error } = useFetch('https://fe-assignment.vaimo.net');
 
   if (isPending) return <h6 className='isPending'><CircularProgress color="inherit" /></h6>
   if (error) return <h2 className='error'>{error}</h2>
@@ -29,6 +30,7 @@ export const Product = () => {
         <PriceBox price={prod?.product.options} />
         <MarchExpo />
         <Discount discount={prod?.product.discount} />
+        <Products options={prod?.product.options}/>
         <TradeAssurance />
         <Payments />
         <div className="links">

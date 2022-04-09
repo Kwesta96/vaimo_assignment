@@ -20,7 +20,7 @@
         transition: all 0.3s ease;
         margin-bottom: 12px;
     
-        &:hover{
+        &:active{
             background-color: $white;
             color: $mainColor;
             border: 1px solid $mainColor;
@@ -48,7 +48,7 @@
         align-items: center;
         justify-content: center;
     
-        &:hover{
+        &:active{
             background-color: $mainColor;
             color: $white;
         }
