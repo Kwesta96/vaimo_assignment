@@ -8,35 +8,59 @@
     display: flex;
     align-items: center;
 
+    @include mobile{
+        width: calc(360px - 12px);
+    }
+
     .logo{
         width: 76px;
         height: 40px;
         margin-right: 24px;
+
+        @include mobile{
+            margin-right: 27px;
+        }
     }
 
-    .textShipping{
-        color: $mainColor;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: left;
-        margin-right: 24px;
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .textShipping{
+            color: $mainColor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+            margin-right: 24px;
+
+            @include mobile{
+                margin-right: 50px;
+            }
+        }
+    
+        .textDelivery{
+            color: $mainColor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+            margin-right: 25px;
+    
+            @include mobile{
+                display: none;
+            }
+        }
+    
+        .icon{
+            color: $mainColor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+        }
     }
 
-    .textDelivery{
-        color: $mainColor;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: left;
-        margin-right: 25px;
-    }
-
-    .icon{
-        color: $mainColor;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: left;
-    }
+    
 }

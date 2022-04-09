@@ -1,7 +1,16 @@
+@import '../../global.scss';
+
 .productImage{
     width: 416px;
     height: 416px;
     position: relative;
+    overflow: hidden;
+
+    @include mobile{
+      width: 360px;
+      height: 360px;
+      margin-bottom: 12px;
+  }
 
     .image {
         width: 100%;

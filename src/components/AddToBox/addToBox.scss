@@ -6,6 +6,13 @@
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
     width: 306px;
     height: 250px;
+    overflow: hidden;
+
+    @include mobile{
+        width: 336px;
+        height: 256px;
+        margin-bottom: 12px;
+    }
 
     .wrapper {
         margin: 24px;

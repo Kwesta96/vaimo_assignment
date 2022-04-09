@@ -15,7 +15,7 @@ import useFetch from '../../hooks/useFetch'
 import './product.scss'
 
 export const Product = () => {
-  const { data: prod, isPending, error } = useFetch('https://fe-assignment.vaimo.net');
+  const { data: prod, isPending, error } = useFetch('https://fe-assignment.vaimo.net/');
 
   if (isPending) return <h6 className='isPending'><CircularProgress color="inherit" /></h6>
   if (error) return <h2 className='error'>{error}</h2>

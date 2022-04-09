@@ -15,9 +15,12 @@
         .tagContainer{
             background-color: #EDF0F3;
             border-radius: 2px;
-            // width: 111px;
-            // height: 40px;
             padding: 0px 8px 2px 8px;
+            
+            @include mobile{
+                float: right;
+                margin-right: 12px;
+            }
 
             .tag{
                 color: $textGray;

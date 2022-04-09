@@ -24,6 +24,10 @@
         outline: none;
         border: none;
         text-align: center;
+
+        @include mobile{
+            width: 40px;
+        }
     }
 
     .inc{

@@ -15,6 +15,10 @@
         .optionText {
             color: $textGray;
             width: 112px;
+
+            @include mobile{
+                display: none;
+            }
         }
 
         .optionName {
@@ -28,10 +32,10 @@
             text-align: left;
             margin-right: 24px;
             width: 60px;
-        }
 
-        .qty{
-            
+            @include mobile{
+                margin-right: 12px;
+            }
         }
     }
 }

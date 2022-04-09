@@ -22,6 +22,11 @@
     .reviews{
         color: $textGray;
         margin-right: 24px;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
     }
 
     .buyers{

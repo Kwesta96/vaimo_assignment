@@ -20,6 +20,10 @@
         line-height: 16px;
         text-align: left;
         margin-right: 24px;
+
+        @include mobile{
+            margin-right: 10px;
+        }
     }
 
     .icon{
